@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Sample Receipt</title>
+  <style>
+    body {
+      background-color: #ECA656;
+      font-family: Arial, sans-serif;
+    }
+
+    .receipt {
+      width: 350px;
+      background-color: #ECA656;
+      padding: 20px;
+      border-radius: 10px;
+      margin: 50px auto;
+      box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    }
+
+    .header {
+      text-align: center;
+      margin-bottom: 10px;
+    }
+
+    .header h2 {
+      margin: 0;
+    }
+
+    .details {
+      text-align: center;
+      font-size: 14px;
+      margin-bottom: 20px;
+    }
+
+    .item {
+      display: flex;
+      justify-content: space-between;
+    }
+    .Delivery {
+      display: flex;
+    }
+
+    .item span {
+      white-space: nowrap;
+    }
+    .Delivery {
+      white-space: nowrap;
+    }
+
+    .total {
+      text-align: center;
+      margin-top: 10px;
+      font-size: 18px;
+      font-weight: bolder;
+    }
+
+    .datetime {
+      text-align: center;
+      font-size: 12px;
+      margin-top: 10px;
+    }
+    .delivery {
+      text-align: left;
+      font-size: 12px;
+    }
+
+    .DeliveryService{
+      text-align: left;
+      font-size: 12px;
+    }
+
+    .notes {
+      border-top: 1px dashed #000;
+      margin-top: 20px;
+      padding-top: 10px;
+      min-height: 40px;
+    }
+
+    .label-notes {
+      font-weight: bold;
+      margin-bottom: 5px;
+    }
+  </style>
+</head>
+<body>
+  <div class="receipt">
+    <div class="header">
+      <h2>Juan Dela Cruz</h2>
+    </div>
+    <div class="details">
+      1234 Kalamansi Street, Makati City<br><br>
+      Number: <strong>12345678910</strong><br><br>
+      
+    <div>Payment method: <strong>Cash on delivery</strong></div>
+    </div>
+    <div class="total">Total Price: ₱1,140</div>
+    <div class="datetime">Date: May 21, 2025<br>Time: 2:00 PM</div><br>
+    <div class="delivery">Delivery Option: <strong>Standard >> </strong>Estimated Time of Arrival: <strong>2:35 PM</strong></div><br>
+    <div class="DeliveryService">Delivery Service: <strong>Take-Out</strong></div>
+
+    <div class="notes">
+      <div class="label-notes">Notes:</div>
+      <!-- Leave blank unless user inputs a note -->
+    </div>
+  </div>
+</body>
+</html>
+
